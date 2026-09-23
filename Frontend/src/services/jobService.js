@@ -19,8 +19,8 @@ export const getAllJobs = async () => {
         const response = await axios.get(`${API_URL}/allPosts`);
         return response.data;
     } catch (error) {
-        console.error("API Error: Fallback to demo mode", error);
-        return getDemoData(); // fallback
+        console.error("API Error: Failed to fetch jobs", error);
+        throw error;
     }
 };
 

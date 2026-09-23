@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Search, PlusSquare, Code2, Zap, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { Search, PlusSquare, Code2, Zap, ArrowRight, CheckCircle2, Briefcase } from 'lucide-react';
 import Navbar from '../components/Navbar.jsx';
 
 const Home = () => {
